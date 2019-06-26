@@ -16,7 +16,7 @@ export default () => {
                 <Route exact path="/classbasedcheck" component={ClassBased}></Route>
                 <Route exact path="/countercheck" component={Counter}></Route>
                 <Route path="*" render={()=>(<Redirect to="/"></Redirect>)} ></Route>
-                {/* <Route path="*" component={PageNotFound} /> */}
+              {/*<Route path="*" component={PageNotFound} ></Route>*/}
             </Switch>
         </Suspense>
     );
